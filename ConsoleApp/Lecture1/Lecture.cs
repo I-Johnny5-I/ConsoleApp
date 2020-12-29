@@ -3,9 +3,9 @@ using System.Text;
 
 namespace ConsoleApp.Lecture1
 {
-	class Program
+	class Lecture
 	{
-		static void Main()
+		public static void Run()
 		{
 			// Base Types
 			int myInt = 5;
@@ -26,8 +26,8 @@ namespace ConsoleApp.Lecture1
 			float myFloat = 5.1874F;
 			decimal myDecimal = 4532.235235235M;
 
-			string output = $"{myInt} {myDouble} {myString} {myBool} {myLong}\n" +
-							$"{myByte} {mySByte} {myUInt} {myULong} {myShort} {myUShort} {myFloat} {myDecimal}";
+			string output = $"{myInt} {myDouble} {myString} {myBool} {myLong}\n" + 
+				$"{myByte} {mySByte} {myUInt} {myULong} {myShort} {myUShort} {myFloat} {myDecimal}";
 			Console.WriteLine(output);
 		}
 	}
