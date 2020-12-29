@@ -2,9 +2,9 @@
 {
 	class Program
 	{
-		static void Main()
+		static void Main(string[] args)
 		{
-			Lecture1.Lecture.Run();
+			Lecture2.Lecture.Run();
 		}
 	}
 }

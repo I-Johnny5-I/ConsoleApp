@@ -22,7 +22,6 @@ namespace ConsoleApp.Lecture1
 			ulong myULong = 1835186186181UL;
 			short myShort = 16768;
 			ushort myUShort = 146;
-
 			float myFloat = 5.1874F;
 			decimal myDecimal = 4532.235235235M;
 
