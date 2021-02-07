@@ -1,10 +1,14 @@
-﻿namespace ConsoleApp
+﻿using System;
+
+namespace ColorSpaces
 {
-	class Program
+	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
-			Lecture2.Lecture.Run();
-		}
+			byte r, g, b;
+			ColorSpace.HSLToRGB(30, 1, 0.75, out r, out g, out b);
+			Console.WriteLine($"{r} {g} {b}");
+		}	
 	}
 }
